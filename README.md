@@ -1,19 +1,23 @@
-# _App Name_
+# _Find and Replace_
 
-##### This app allows you to .....
+##### This app allows users to enter a string, chooses a word to find and provides a replacement for that word.
 
 #### By _**Yelena Nedelko**_
 
 ## Description
 
-_Users can:_
-
-* _....._
-
+_Users are asked to provide a string, a word they'd like replaced, and the word they'd like to replace it with. App will replace all occurrences of the word in the string and consider special characters._
+_Sample string: Is this a test only a practice test?_
+_Sample word to replace: test_
+_Sample word to replace with: performance_
+_Sample output: Is this a performance only a practice performance?_
 
 ## Technology Used
 * _JavaScript_
 * _JQuery_
+* _Testing through Mocha and Chai_
+
+_To view, clone repo and open find-and-replace.html in browser._
 
 
 ### Legal

@@ -1,4 +1,6 @@
 
 var findReplace = function(string, word, replaceWith) {
-  return replaceWith;
+  var newString = "";
+  newString = string.replace(word, replaceWith);
+  return newString;
 };

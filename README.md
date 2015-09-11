@@ -6,11 +6,12 @@
 
 ## Description
 
-_Users are asked to provide a string, a word they'd like replaced, and the word they'd like to replace it with. App will replace all occurrences of the word in the string and consider special characters._
-_Sample string: Is this a test only a practice test?_
-_Sample word to replace: test_
-_Sample word to replace with: performance_
-_Sample output: Is this a performance only a practice performance?_
+Users are asked to provide a string, a word they'd like replaced, and the word they'd like to replace it with. App will replace all occurrences of the word in the string and consider special characters.
+
+Sample string: Is this a test only a practice test?
+Sample word to replace: test
+Sample word to replace with: performance
+Sample output: Is this a performance only a practice performance?
 
 ## Technology Used
 * _JavaScript_
@@ -20,7 +21,7 @@ _Sample output: Is this a performance only a practice performance?_
 _To view, clone repo and open find-and-replace.html in browser._
 
 
-### Legal
+## Legal
 
 Copyright (c) 2015 **_Yelena Nedelko_**
 

@@ -9,6 +9,7 @@
   </head>
   <body>
     <div class="container">
+      <center>
       <h1 class="text-info">Find and Replace</h1>
 
       <form id="find-and-replace">
@@ -16,20 +17,22 @@
 
         <div class="form-group">
           <label for="string">Sentence or string of words:</label>
-          <input id="string" type="text">
-          <label for="word">Word to replace:</label>
+          <input class="form-control" id="string" type="text">
+          <br>
+          <label for="word">Find word:</label>
           <input id="word" type="text">
-          <label for="replaceWith">Replace with?:</label>
+          <label for="replaceWith">Replace with:</label>
           <input id="replaceWith" type="text">
        </div>
 
-       <button type="submit" class="btn btn-success btn-sm">Replace!</button>
+       <button type="submit" class="btn btn-info btn-sm">Replace!</button>
      </form>
-
-    <div id="result">
-      <p>Your input of: <span class="input"></span></p>
-      <p>Is now: <strong><span class="output"></span></strong></p>
-    </div>
+     <br>
+      <div id="result">
+        <p>Your input of: <span class="input"></span></p>
+        <p>Is now: <strong><span class="output"></span></strong></p>
+      </div>
+    </center>
   </div>
 </body>
 </html>

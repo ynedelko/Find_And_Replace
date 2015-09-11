@@ -8,4 +8,7 @@ describe('findReplace', function() {
   it("will replace all occurances of the word in the string", function() {
     expect(findReplace("happy or sad or very sad", "sad", "unhappy")).to.equal("happy or unhappy or very unhappy")
   });
+  it("will consider special characters", function() {
+    expect(findReplace("Are you happy or sad or very sad?", "sad", "unhappy")).to.equal("Are you happy or unhappy or very unhappy?")
+  });
 });

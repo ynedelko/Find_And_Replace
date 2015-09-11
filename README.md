@@ -6,12 +6,12 @@
 
 ## Description
 
-Users are asked to provide a string, a word they'd like replaced, and the word they'd like to replace it with. App will replace all occurrences of the word in the string and consider special characters.
+This Find and Replace app will replace all occurrences of a given word in a string, including capitalized words. It will also consider special characters.
 
-Sample string: Is this a test only a practice test?
+Sample string: Is this test only a practice Test?
 Sample word to replace: test
 Sample word to replace with: performance
-Sample output: Is this a performance only a practice performance?
+Sample output: Is this performance only a practice performance?
 
 ## Technology Used
 * _JavaScript_
